@@ -95,7 +95,7 @@ Used Power Query to prepare the data and DAX measures to calculate and display b
 |---|---|
 | `Retail_Inventory_Analysis.xlsx` | Excel workbook containing inventory analysis, forecasting calculations, accuracy evaluation, and dashboard |
 | `Retail_Inventory_Dashboard.pbix` | Interactive Power BI report with DAX measures, slicers, and visualizations |
-| `dashboard.png` | Screenshot of the completed Excel dashboard |
+| `Excel_Dashboard.png` | Screenshot of the completed Excel dashboard |
 | `Power_BI_Dashboard.png` | Screenshot of the completed Power BI dashboard |
 | `README.md` | Project documentation, methodology, and findings |
 
