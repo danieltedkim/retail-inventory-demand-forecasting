@@ -1,4 +1,4 @@
-1. Dataset Verification
+--1. Dataset Verification
 
 SELECT
     COUNT(*) AS total_records,
@@ -6,7 +6,7 @@ SELECT
     COUNT(DISTINCT "Product ID") AS total_products
 FROM retail_inventory;
 
-2. Sales and Demand by Store
+--2. Sales and Demand by Store
 
 SELECT
     "Store ID",
@@ -20,7 +20,7 @@ FROM retail_inventory
 GROUP BY "Store ID"
 ORDER BY sales_to_demand_pct DESC;
 
-3. Product Sales Rankings
+--3. Product Sales Rankings
 
 SELECT
     "Product ID",
@@ -32,7 +32,7 @@ FROM retail_inventory
 GROUP BY "Product ID"
 ORDER BY sales_rank;
 
-4. Inventory-to-Demand Analysis
+--4. Inventory-to-Demand Analysis
 
 WITH product_inventory AS (
     SELECT
@@ -55,7 +55,7 @@ SELECT
 FROM product_inventory
 ORDER BY inventory_to_demand_ratio DESC;
 
-5. Product Sales vs. Demand
+--5. Product Sales vs. Demand
 
 WITH product_sales AS (
     SELECT
