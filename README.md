@@ -18,7 +18,7 @@ In Excel, I built 3-day and 7-day moving-average forecasts, evaluated their accu
 
 ### Excel Dashboard
 
-![Excel Dashboard](dashboard.png)
+![Excel Dashboard](Excel_Dashboard.png)
 
 *Excel dashboard featuring demand forecasting, inventory comparisons, and operational performance metrics.*
 
